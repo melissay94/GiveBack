@@ -1,4 +1,4 @@
-# GA-Team-4 Project 3
+# GiveBack
 
 ## Team Members
  - [Dylan Lewis](https://github.com/dlew253)
@@ -58,20 +58,40 @@ We are creating a web application that would allow volunteer organizations to cr
 3. Organizations have an organization page that would be what users see when they navigate to that organization.
 4. Organizations can edit their organization page.
 5. Organizations can create and edit events.
-6. Organizations can send notifications to groups of volunteers.
-7. Use SaSS preprocessor for creating CSS styles.
-8. Organizations can validate users after events have occurred. IE give them a badge or a glowing review or something.
-9. Orgs can search for users to ask to volunteer based on volunteer interests and reviews(?)
+6. Organizations can send notifications to groups of volunteers using [Messege Bird API](https://messagebird.com/en/).
+7. Organizations can validate users after events have occurred. IE give them a badge or a glowing review or something.
+8. Orgs can search for users to ask to volunteer based on volunteer interests and reviews(?)
 
 ### Tech Stack
-1. Mongoose
-2. Express
-3. React
-4. Node
-5. Bootstrap or Material UI
-6. SaSS
-7. [React Big Calendar](https://github.com/jquense/react-big-calendar)
-8. [Messege Bird API](https://messagebird.com/en/)
+1. MongoDB
+2. Mongoose
+3. Express
+4. React
+5. Node
+6. Material UI
+7. SaSS
+8. [React Big Calendar](https://github.com/jquense/react-big-calendar)
+
+### Screenshots of Project
+###### Landing Page  
+![Landing Page](./readme_images/givebackLanding.png)
+
+###### Login Page  
+![Login Page](./readme_images/giveBackLogin.png)
+
+###### Dashboard Page - Calendar  
+![Dashboard Page](./readme_images/giveBackDashboard.png)
+
+###### Search Page
+![Search Page](./readme_images/giveBackSearch.png)
+
+###### Organization Page
+![Organization Page](./readme_images/giveBackOrganization.png)
+
+###### Profile Page
+![Profile Page](./readme_images/giveBackProfile.png)
+
+
 
 ### Site Map
 ![Site Map](./readme_images/project_site_map.png)
